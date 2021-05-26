@@ -11,6 +11,10 @@ class Calculator:
     
     def cube(self):
         print((self.number)**3)
+    
+    @staticmethod
+    def greet():
+        print("This Calsulator is only find sqr , sqrt ,cube !")
 
     
 
@@ -18,3 +22,4 @@ value = Calculator(6)
 value.square()
 value.suareRoot()
 value.cube()
+value.greet()
