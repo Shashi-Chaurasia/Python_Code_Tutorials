@@ -14,7 +14,7 @@ class Calculator:
     
     @staticmethod
     def greet():
-        print("This Calsulator is only find sqr , sqrt ,cube !")
+        print("This program is only find sqr , sqrt ,cube !")
 
     
 
